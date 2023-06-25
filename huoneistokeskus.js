@@ -158,7 +158,7 @@ await browser.close();
 return listing;
 }
 
-cron.schedule('*/35 * * * * ', async function() {
+cron.schedule('*/10 * * * * *', async function() {
 const listing = await main();
 
 if (!listing || listing.length === 0 || listing.some(item => !item.title || !item.url))  {
