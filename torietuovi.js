@@ -5,7 +5,7 @@ const http = require('http');
 const mongo = require("mongodb");
 const Listing = require("./model/torietuoviListing.js");
 const mongoose = require('mongoose');
-const data = require('./ch1');
+
 
 
 
